@@ -17,7 +17,7 @@ const html = `
       setTimeout(() => {
         confetti({
           particleCount: 100000,
-          spread: 70,
+          spread: 100,
           origin: { y: 0.6 },
           disableForReducedMotion: true
         });
